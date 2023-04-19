@@ -1,11 +1,11 @@
-About levenshtein
-=================
+About levenshtein-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/levenshtein-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/maxbachmann/Levenshtein
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/levenshtein-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python extension for computing string edit distances and similarities.
 
