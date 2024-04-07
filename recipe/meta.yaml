@@ -10,7 +10,7 @@ source:
   sha256: 2df14471c778c75ffbd59cb64bbecfd4b0ef320ef9f80e4804764be7d5678980
 
 build:
-  number: 0
+  number: 1
   script:
     - {{ PYTHON }} -m pip install . -vvv
 
@@ -30,7 +30,7 @@ requirements:
     - setuptools
   run:
     - python
-    - rapidfuzz >=3.1.0,<4.0.0
+    - rapidfuzz >=3.8.0,<4.0.0
 
 test:
   imports:
