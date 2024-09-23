@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/Levenshtein-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/levenshtein-{{ version }}.tar.gz
   sha256: 960b020d96bbd348400d6ff5c16290adee49f0ae2d42707a550a3b4f7d092abe
 
 build:
