@@ -1,5 +1,5 @@
 {% set name = "Levenshtein" %}
-{% set version = "0.27.1" %}
+{% set version = "0.27.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/levenshtein-{{ version }}.tar.gz
-  sha256: 3e18b73564cfc846eec94dd13fab6cb006b5d2e0cc56bad1fd7d5585881302e3
+  sha256: 1ac326b2c84215795163d8a5af471188918b8797b4953ec87aaba22c9c1f9fc0
 
 build:
-  number: 1
+  number: 0
   script:
     - {{ PYTHON }} -m pip install . -vvv
 
